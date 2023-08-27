@@ -33,7 +33,7 @@ gW(x,y) : Same as above but penalizes list of words y. Useful for finding the ne
 
           Use as: gW("bl",["bla","ble"]) --> "blu" 
 
-right(x) : Another name for function as gW(x).
+right(x) : Another name for function gW(x).
 
 left(x)  : Chops of the final sound in a word, e.g: left("bla") --> "bl"
 
